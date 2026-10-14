@@ -57,6 +57,7 @@ main,footer{position:relative;z-index:1}
 /* hero */
 .hero{padding-block:clamp(48px,9vw,120px) clamp(36px,6vw,72px)}
 .hero h1{margin:0;font-family:var(--display);font-weight:780;font-variation-settings:"wdth" 125;font-size:clamp(40px,8.6vw,124px);line-height:.92;letter-spacing:-.025em;text-transform:uppercase;text-wrap:balance}
+@media (max-width:600px){.hero h1{font-size:min(7.4vw,40px)}.top{position:static}.proj-head h1{font-size:min(8.4vw,34px);overflow-wrap:anywhere}}
 .hero .geo{font-family:var(--geo);font-weight:400;color:var(--muted);font-size:clamp(15px,1.6vw,20px);margin:18px 0 0}
 .hero p.lede{max-width:36ch;font-size:clamp(19px,2vw,25px);line-height:1.35;margin:28px 0 0;font-variation-settings:"wdth" 92}
 .hero .roles{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px;padding:0;list-style:none}
