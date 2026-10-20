@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>body{margin:0}[hidden]{display:none!important}</style></head><body>
+<title>Anna Makharashvili</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Anna Makharashvili, graphic designer in Toronto. Campaigns, brand identity, packaging and print.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..800&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+Georgian:wght@400;600&display=swap">
+<style>
+/* Layout: a quiet index-card site. Name set wide, work shown large on a neutral ground, metadata in mono like a print docket. */
+:root{
+  --bg:#f4f4f1;
+  --surface:#e9e9e4;
+  --fg:#17171a;
+  --muted:#5e5e66;
+  --line:#d3d3cc;
+  --mark:#e9e9e3;   /* background symbol, a shade darker than --bg */
+  --accent:#9b2335;   /* qvevri-wine red, used sparingly */
+  --on-accent:#ffffff;
+  --display:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --body:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --geo:"Noto Sans Georgian","Archivo",sans-serif;
+  --maxw:1320px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121214;--surface:#1c1c20;--fg:#ecebe6;--muted:#a3a3aa;--line:#2e2e34;--mark:#1b1b1f;--accent:#e2707f;--on-accent:#121214;color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121214;--surface:#1c1c20;--fg:#ecebe6;--muted:#a3a3aa;--line:#2e2e34;--mark:#1b1b1f;--accent:#e2707f;--on-accent:#121214;color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.55;font-variation-settings:"wdth" 100;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+img{max-width:100%;display:block;height:auto}
+.bgmark{--markimg:url("data:image/png;base64,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");position:fixed;z-index:0;pointer-events:none;right:-6vw;top:50%;transform:translateY(-50%);width:min(78vw,900px);aspect-ratio:688/709;background:var(--mark);-webkit-mask:var(--markimg) center/contain no-repeat;mask:var(--markimg) center/contain no-repeat}
+main,footer{position:relative;z-index:1}
+@media (max-width:700px){.bgmark{width:120vw;right:-30vw}}
+.wrap{max-width:var(--maxw);margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+@media (min-width:760px){.wrap{padding-left:max(40px,env(safe-area-inset-left,0px));padding-right:max(40px,env(safe-area-inset-right,0px))}}
+
+/* header */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px}
+.mark{font-family:var(--display);font-weight:700;font-variation-settings:"wdth" 118;letter-spacing:.01em;text-decoration:none;font-size:15px;text-transform:uppercase}
+.nav{display:flex;gap:22px;font-family:var(--mono);font-size:13px}
+.nav a{text-decoration:none;color:var(--muted)}
+.nav a:hover,.nav a[aria-current="true"]{color:var(--fg)}
+.nav a{white-space:nowrap}
+@media (max-width:520px){.top .wrap{flex-direction:column;align-items:flex-start;gap:6px;padding-block:10px}.nav{gap:16px}}
+
+/* hero */
+.hero{padding-block:clamp(48px,9vw,120px) clamp(36px,6vw,72px)}
+.hero h1{margin:0;font-family:var(--display);font-weight:780;font-variation-settings:"wdth" 125;font-size:clamp(40px,8.6vw,124px);line-height:.92;letter-spacing:-.025em;text-transform:uppercase;text-wrap:balance}
+@media (max-width:600px){.hero h1{font-size:min(7.4vw,40px)}.top{position:static}.proj-head h1{font-size:min(8.4vw,34px);overflow-wrap:anywhere}}
+.hero .geo{font-family:var(--geo);font-weight:400;color:var(--muted);font-size:clamp(15px,1.6vw,20px);margin:18px 0 0}
+.hero p.lede{max-width:36ch;font-size:clamp(19px,2vw,25px);line-height:1.35;margin:28px 0 0;font-variation-settings:"wdth" 92}
+.hero .roles{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px;padding:0;list-style:none}
+
+/* chips */
+.chip{font-family:var(--mono);font-size:12.5px;line-height:1;padding:9px 12px;border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--fg);text-decoration:none;cursor:pointer;white-space:nowrap}
+.chip:hover{border-color:var(--fg)}
+.chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+
+/* section heads */
+.sec{padding-block:clamp(40px,6vw,80px)}
+.sec + .sec{border-top:1px solid var(--line)}
+.sechead{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:28px}
+.sechead h2{margin:0;font-family:var(--display);font-weight:700;font-variation-settings:"wdth" 112;font-size:clamp(22px,2.6vw,32px);letter-spacing:-.01em;text-transform:uppercase}
+.label{font-family:var(--mono);font-size:12.5px;color:var(--muted);letter-spacing:.02em}
+
+/* cards */
+.grid{display:grid;gap:clamp(20px,3vw,40px) clamp(16px,2.4vw,32px);grid-template-columns:repeat(2,minmax(0,1fr))}
+.grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:980px){.grid.three{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:620px){.grid,.grid.three{grid-template-columns:minmax(0,1fr)}}
+.card{display:flex;flex-direction:column;gap:12px;text-decoration:none;min-width:0}
+.card .ph{aspect-ratio:4/3;overflow:hidden;background:var(--surface)}
+.card .ph img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.card:hover .ph img{transform:scale(1.03)}
+.card .row{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.card h3{margin:0;font-family:var(--display);font-weight:680;font-variation-settings:"wdth" 108;font-size:clamp(17px,1.5vw,20px);letter-spacing:-.005em;text-transform:uppercase}
+.card .kind{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:nowrap}
+.card p{margin:0;color:var(--muted);font-size:15.5px;max-width:52ch}
+.card .tags{display:flex;flex-wrap:wrap;gap:6px 14px;font-family:var(--mono);font-size:12px;color:var(--muted)}
+.card .tags span::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--accent);margin-right:6px;vertical-align:1px}
+
+/* filters */
+.filters{display:flex;flex-wrap:wrap;gap:8px}
+.morerow{display:flex;justify-content:center;margin-top:clamp(28px,4vw,48px)}
+.empty{color:var(--muted)}
+
+/* about */
+.about{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:clamp(24px,5vw,80px)}
+@media (max-width:820px){.about{grid-template-columns:minmax(0,1fr)}}
+.about p{margin:0 0 1em;max-width:62ch;font-size:clamp(17px,1.4vw,19px)}
+.facts{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px 24px;margin:8px 0 0;font-size:15.5px}
+.facts dt{font-family:var(--mono);font-size:12.5px;color:var(--muted);padding-top:3px}
+.facts dd{margin:0}
+.todo{background:color-mix(in srgb,var(--accent) 14%,transparent);padding:0 4px;border-radius:2px}
+
+/* contact */
+.contact{padding-block:clamp(48px,6vw,88px);border-top:1px solid var(--line)}
+#work,#about,#contact{scroll-margin-top:64px}
+@keyframes arrive{0%{background:color-mix(in srgb,var(--accent) 22%,transparent)}100%{background:transparent}}
+.contact.arrived{animation:arrive 1.8s ease-out}
+@media (prefers-reduced-motion: reduce){.contact.arrived .addr{animation:none}}
+.contact h2{margin:0 0 22px;font-family:var(--display);font-weight:780;font-variation-settings:"wdth" 125;font-size:clamp(32px,6vw,84px);line-height:.95;text-transform:uppercase;letter-spacing:-.02em}
+.contact .lines{display:flex;flex-wrap:wrap;gap:12px 28px;align-items:center}
+.contact .addr{font-size:clamp(18px,2vw,24px);user-select:all}
+.btn{font-family:var(--mono);font-size:13px;padding:10px 14px;border-radius:999px;border:1px solid var(--fg);background:var(--fg);color:var(--bg);cursor:pointer}
+.btn.ghost{background:transparent;color:var(--fg)}
+.btn{text-decoration:none;display:inline-block}
+footer{border-top:1px solid var(--line)}
+footer .wrap{padding-block:22px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-family:var(--mono);font-size:12px;color:var(--muted)}
+
+/* project page */
+.proj-head{padding-block:clamp(32px,6vw,72px) 28px}
+.back{font-family:var(--mono);font-size:13px;color:var(--muted);text-decoration:none}
+.back:hover{color:var(--fg)}
+.proj-head h1{margin:22px 0 0;font-family:var(--display);font-weight:780;font-variation-settings:"wdth" 122;font-size:clamp(34px,6.4vw,92px);line-height:.95;letter-spacing:-.02em;text-transform:uppercase;text-wrap:balance}
+.proj-head .sum{margin:18px 0 0;font-size:clamp(18px,1.9vw,24px);line-height:1.35;max-width:40ch;font-variation-settings:"wdth" 92}
+.docket{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px 28px;border-top:1px solid var(--fg);border-bottom:1px solid var(--line);padding-block:16px;margin-top:32px}
+@media (max-width:700px){.docket{grid-template-columns:minmax(0,1fr)}}
+.docket div{min-width:0}
+.docket b{display:block;font-family:var(--mono);font-weight:400;font-size:12px;color:var(--muted);margin-bottom:4px;letter-spacing:.02em}
+.docket span{font-size:15.5px}
+.story{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,3vw,48px);padding-block:36px clamp(36px,5vw,64px)}
+@media (max-width:900px){.story{grid-template-columns:minmax(0,1fr)}}
+.story h2{margin:0 0 10px;font-family:var(--mono);font-weight:500;font-size:12.5px;color:var(--accent);letter-spacing:.06em;text-transform:uppercase}
+.story p{margin:0;font-size:16.5px;max-width:60ch}
+.story p + p{margin-top:.8em}
+.proj-head{padding-bottom:28px}
+.grow.lead{margin-bottom:8px}
+@media (max-width:600px){.grow.lead{flex-direction:row}.grow.lead figure{flex:1 1 0!important}}
+.grow.lead figure{background:var(--surface)}
+.proj-head + .grow.lead + .proj-meta .docket{margin-top:20px}
+.gallery{display:flex;flex-direction:column;gap:clamp(10px,1.4vw,18px)}
+.grow{display:flex;gap:clamp(10px,1.4vw,18px)}
+.grow figure{margin:0;min-width:0;background:var(--surface)}
+.grow figure img{width:100%}
+.grow.narrow{justify-content:center}
+.grow.narrow figure{max-width:min(100%,560px)}
+@media (max-width:600px){.grow{flex-direction:column}.grow figure{flex:none!important}}
+.subsec + .subsec{margin-top:clamp(40px,6vw,80px)}
+.subhead{display:flex;align-items:baseline;justify-content:space-between;gap:8px 16px;flex-wrap:wrap;border-top:1px solid var(--fg);padding-top:14px;margin-bottom:18px}
+.subhead h2{margin:0;font-family:var(--display);font-weight:700;font-variation-settings:"wdth" 112;font-size:clamp(18px,2vw,24px);text-transform:uppercase}
+.bbwrap{position:relative;max-width:900px;margin:0 auto}
+.bbwrap::after{content:"";position:absolute;left:1px;right:1px;bottom:1px;height:120px;background:linear-gradient(to bottom,rgba(255,255,255,0),#fff 85%);pointer-events:none;transition:opacity .3s}
+.bbwrap.end::after,.bbwrap.end .bbhint{opacity:0}
+.bbhint{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);font-family:var(--mono);font-size:12.5px;color:#17171a;background:#fff;border:1px solid #d3d3cc;border-radius:999px;padding:7px 12px;pointer-events:none;transition:opacity .3s}
+.bbframe{height:min(82vh,1100px);overflow-y:auto;overscroll-behavior:contain;background:#fff;border:1px solid var(--line);box-shadow:0 18px 40px -24px rgba(0,0,0,.35)}
+.bbframe img{width:100%;display:block}
+@media (max-width:600px){.bbframe{height:70vh}}
+.postgrid{display:grid;grid-template-columns:repeat(var(--cols,3),minmax(0,1fr));max-width:900px;margin:0 auto;gap:clamp(8px,1.2vw,16px)}
+
+.postgrid figure{margin:0;background:var(--surface)}
+.postgrid img{width:100%}
+.pageshot{max-width:900px;margin:0 auto;background:#fff;border:1px solid var(--line);box-shadow:0 18px 40px -24px rgba(0,0,0,.35);border-radius:8px;overflow:hidden}
+.pageshot .chrome{display:flex;gap:6px;padding:10px 12px;background:#ececea;border-bottom:1px solid #dcdcd6}
+.pageshot .chrome i{width:10px;height:10px;border-radius:50%;background:#c9c9c3;display:block}
+.pageshot img{width:100%;display:block}
+.subsec .gallery{display:flex;flex-direction:column;gap:clamp(10px,1.4vw,18px);max-width:1000px;margin:0 auto}
+.bbopenrow{display:flex;justify-content:center;margin-top:14px}
+#viewer{position:fixed;inset:0;z-index:50;background:#141416;display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px)}
+#viewer[hidden]{display:none!important}
+#viewer .vbar{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px max(16px,env(safe-area-inset-right,0px)) 10px max(16px,env(safe-area-inset-left,0px));color:#ecebe6}
+#viewer .vbar .label{color:#c9c9c3}
+#viewer .vbtns{display:flex;gap:8px}
+#viewer .btn{background:#ecebe6;color:#17171a;border-color:#ecebe6}
+#viewer .btn.ghost{background:transparent;color:#ecebe6;border-color:#ecebe6}
+#viewer .vbody{flex:1;overflow:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;touch-action:pan-x pan-y pinch-zoom}
+#viewer .vbody img{display:block;width:min(100%,1100px);margin:0 auto;background:#fff}
+#viewer.zoom .vbody img{width:max(240%,1100px);max-width:none;margin:0}
+.vid{margin:0}
+.vid video{width:100%;height:auto;display:block;background:#000;aspect-ratio:16/9}
+.vid figcaption{margin-top:8px}
+.cv{border-top:1px solid var(--fg);padding-block:22px 34px}
+#resume .docket{border-bottom:0;margin-bottom:8px}
+.cv-link{text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px}
+.cv-link:hover{color:var(--accent)}
+.cv h2{margin:0 0 18px;font-family:var(--mono);font-weight:500;font-size:12.5px;color:var(--accent);letter-spacing:.06em;text-transform:uppercase}
+.cv-item{display:grid;grid-template-columns:200px minmax(0,1fr);gap:8px 32px}
+.cv-item + .cv-item{margin-top:26px}
+.cv-when{font-family:var(--mono);font-size:13px;color:var(--muted);padding-top:4px}
+.cv-what h3{margin:0;font-family:var(--display);font-weight:680;font-variation-settings:"wdth" 108;font-size:clamp(18px,1.8vw,22px);text-transform:uppercase}
+.cv-org{margin:4px 0 10px;color:var(--muted);font-size:15.5px}
+.cv-what ul{margin:0;padding-left:18px;max-width:70ch}
+.cv-what li{margin:4px 0;font-size:16px}
+.cv-skills{display:grid;grid-template-columns:200px minmax(0,1fr);gap:12px 32px;margin:0}
+.cv-skills dt{font-family:var(--mono);font-size:13px;color:var(--muted);padding-top:2px}
+.cv-skills dd{margin:0;font-size:16px}
+@media (max-width:700px){.cv-item,.cv-skills{grid-template-columns:minmax(0,1fr)}.cv-skills dd{margin-bottom:6px}}
+.credit{font-family:var(--mono);font-size:12px;color:var(--muted);margin:16px 0 0}
+.next{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;border-top:1px solid var(--fg);margin-top:clamp(40px,6vw,80px);padding-block:22px 60px}
+.next a{text-decoration:none;font-family:var(--display);font-weight:700;font-variation-settings:"wdth" 115;text-transform:uppercase;font-size:clamp(20px,3vw,36px)}
+.next a span{display:block;font-family:var(--mono);font-weight:400;font-size:12px;color:var(--muted);text-transform:none;margin-bottom:4px}
+.next a:hover{color:var(--accent)}
+</style>
+
+<div class="bgmark" aria-hidden="true"></div>
+<header class="top">
+  <div class="wrap">
+    <a class="mark" href="#top">Anna Makharashvili</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#resume">Resume</a>
+    </nav>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero wrap" id="top">
+    <h1>Anna<br>Makharashvili</h1>
+    <p class="geo" lang="ka">ანნა მახარაშვილი</p>
+    <p class="lede">Graphic designer in Toronto. I design campaigns, brand identities, packaging and print, in English and Georgian.</p>
+  </section>
+
+  <section class="sec wrap" id="work" aria-labelledby="work-h">
+    <div class="sechead">
+      <h2 id="work-h">Work</h2>
+      <div class="filters" id="filters" role="group" aria-label="Filter by area of work"></div>
+    </div>
+    <div class="grid" id="workGrid"></div>
+    <div class="morerow" id="moreRow"><button class="btn ghost" id="moreBtn" type="button">See more projects</button></div>
+  </section>
+
+  <section class="sec wrap" id="about" aria-labelledby="about-h">
+    <div class="about">
+      <div class="sechead" style="margin:0"><h2 id="about-h">About</h2></div>
+      <div>
+        <p>I'm a graphic designer based in Toronto with two years of in-house experience. As a junior graphic designer at a commercial lighting manufacturer, I produced product catalogues, social media content, web graphics and product photography. I also freelance for nonprofits and small businesses.</p>
+        <p>I work across advertising campaigns, brand identity, packaging and editorial layout, and I'm happiest when a single idea has to hold up from a social post to a billboard.</p>
+        <p>I've designed for nonprofits and small businesses in Georgia and Canada, from a youth empowerment organization to a Georgian bakery in Toronto. I design in both English and Georgian, so bilingual typography is a regular part of my work.</p>
+        <dl class="facts">
+          <dt>Focus</dt><dd>Campaigns and advertising · Brand identity and packaging · Digital and social · Layout and print</dd>
+          <dt>Tools</dt><dd>Photoshop · Illustrator · InDesign · Lightroom · Premiere Pro · After Effects · Animate · XD · Figma</dd>
+          <dt>Experience</dt><dd>Junior Graphic Designer, in-house at a lighting manufacturer (2024–2026)<br>Freelance Graphic Designer (2024–present)</dd>
+          <dt>Education</dt><dd>Ontario College Advanced Diploma, Graphic Design, Seneca Polytechnic (2026)</dd>
+          <dt>Resume</dt><dd><a href="#resume">View full resume →</a></dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact wrap" id="contact" aria-labelledby="contact-h">
+    <h2 id="contact-h">Let's work<br>together</h2>
+    <div class="lines">
+      <span class="addr" id="addr">anna.makhara@outlook.com</span>
+      <button class="btn" id="copyBtn" type="button">Copy email</button>
+      <a class="btn ghost" href="https://www.linkedin.com/in/anna-m-b55627227/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </section>
+</main>
+
+<main id="project" hidden></main>
+<main id="resume" hidden>
+  <div class="wrap">
+    <div class="proj-head">
+      <a class="back" href="#top">← Home</a>
+      <h1>Resume</h1>
+      <p class="sum">Graphic designer with two years of in-house experience producing brand, marketing and digital work, from concept to production-ready files.</p>
+      <div class="docket">
+        <div><b>Location</b><span>Toronto, ON</span></div>
+        <div><b>Email</b><span>anna.makhara@outlook.com</span></div>
+        <div><b>LinkedIn</b><span><a href="https://www.linkedin.com/in/anna-m-b55627227/" target="_blank" rel="noopener" class="cv-link">Anna Makharashvili ↗</a></span></div>
+      </div>
+    </div>
+
+    <section class="cv">
+      <h2>Experience</h2>
+      <div class="cv-item">
+        <div class="cv-when">Jun 2024 – Mar 2026</div>
+        <div class="cv-what">
+          <h3>Junior Graphic Designer</h3>
+          <p class="cv-org">In-house, commercial lighting manufacturer · Oakville, ON</p>
+          <ul>
+            <li>Built product catalogues to brand guidelines alongside a lead designer, and prepared presentations independently from provided content</li>
+            <li>Created hundreds of product spec sheets, and designed custom lighting fixtures with spec sheets for client approval</li>
+            <li>Designed web banners, tile images and a printed conference banner, and developed a social media strategy</li>
+            <li>Shot, retouched and colour-corrected product photography for web and print</li>
+            <li>Edited images, video and layouts in Illustrator, Photoshop, InDesign and Premiere Pro</li>
+            <li>Maintained the team’s digital asset library and worked with cross-functional teams on consistent messaging</li>
+          </ul>
+        </div>
+      </div>
+      <div class="cv-item">
+        <div class="cv-when">Mar 2024 – Present</div>
+        <div class="cv-what">
+          <h3>Freelance Graphic Designer</h3>
+          <p class="cv-org">Independent · Toronto, ON</p>
+          <ul>
+            <li>Created a full brand book for a youth nonprofit — tone, mission and values, brand guidelines, colour-coded content themes and editable Canva social templates (<a href="#p-mpower">M-POWER Global</a>)</li>
+            <li>Designed print and digital menus, marketing materials and logos for small businesses (<a href="#p-qarteli">Qarteli Bakery</a>)</li>
+            <li>Managed full projects from concept and client communication through revisions and final delivery</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="cv">
+      <h2>Education</h2>
+      <div class="cv-item">
+        <div class="cv-when">2026</div>
+        <div class="cv-what">
+          <h3>Ontario College Advanced Diploma, Graphic Design</h3>
+          <p class="cv-org">Seneca Polytechnic · Toronto, ON</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cv">
+      <h2>Skills</h2>
+      <dl class="cv-skills">
+        <dt>Tools</dt><dd>Photoshop · Illustrator · InDesign · Lightroom · Premiere Pro · After Effects · Animate · XD · Figma</dd>
+        <dt>Branding</dt><dd>Logo design, brand development, style guides, colour systems</dd>
+        <dt>Layout and print</dt><dd>Typography, grid systems, print production and file preparation</dd>
+        <dt>Digital</dt><dd>Web graphics, landing pages, social media content, responsive design, WordPress</dd>
+        <dt>Photo and motion</dt><dd>Product photography, retouching, photo manipulation, video editing, motion graphics</dd>
+        <dt>Languages</dt><dd>English · Georgian (bilingual design)</dd>
+      </dl>
+    </section>
+
+    <div class="next">
+      <span class="label">Want to see the work?</span>
+      <a href="#work"><span>Back to</span>All projects →</a>
+    </div>
+  </div>
+</main>
+
+<div id="viewer" hidden role="dialog" aria-modal="true" aria-label="Brand book, full screen">
+  <div class="vbar"><span class="label">Brand book</span><div class="vbtns"><button class="btn ghost vzoom" type="button">Zoom in</button><button class="btn vclose" type="button">Close ✕</button></div></div>
+  <div class="vbody"></div>
+</div>
+
+<footer><div class="wrap"><span>© 2026 Anna Makharashvili</span><span>Toronto, Canada</span></div></footer>
+
+<script>
+const CATS = [
+  {id:"campaigns", name:"Campaigns & Advertising"},
+  {id:"branding", name:"Branding & Packaging"},
+  {id:"digital", name:"Digital & Social"},
+  {id:"print", name:"Layout & Print"}
+];
+const IMG = {"cmog":[["cmog-v2-01.jpg",600,2000],["cmog-v2-02.jpg",1333,2000],["cmog-v2-03.jpg",1358,2000],["cmog-v2-04.jpg",2000,1385],["cmog-v2-05.jpg",2000,583],["cmog-v2-06.jpg",2000,1110],["cmog-v2-07.jpg",1358,2000],["cmog-v2-08.jpg",2000,1385],["cmog-v2-09.jpg",600,2000],["cmog-v2-10.jpg",1333,2000],["cmog-v2-11.jpg",2000,1314],["cmog-v2-12.jpg",2000,1601],["cmog-v2-13.jpg",2000,1500]],"financeit":[["financeit-01b.jpg",2000,1250],["financeit-02c.jpg",1600,1333],["financeit-03c.jpg",1600,198],["financeit-04c.jpg",427,1600],["financeit-05.jpg",612,792],["financeit-06.jpg",1408,1208],["financeit-07.jpg",688,1600],["financeit-mag.jpg",2000,1500],["financeit-page.jpg",1400,3254],["financeit-card.jpg",1600,1200]],"bruh":[["bruh-01c.jpg",2000,1412],["bruh-02.jpg",1600,1067],["bruh-03.jpg",1216,811],["bruh-04.jpg",1186,791],["bruh-05u.jpg",1800,1501],["bruh-06c.jpg",1600,1130],["bruh-07.jpg",607,874],["bruh-08.jpg",1520,738],["bruh-09p.jpg",1800,1351],["bruh-10c.jpg",1600,1130],["bruh-11.jpg",625,970],["bruh-12c.jpg",1600,1130],["bruh-logo-sq.jpg",1200,1200],["bruh-life1.jpg",1800,1200],["bruh-life2c.jpg",1496,993],["bruh-social2-bg.jpg",1800,1051],["bruh-sassy-bg.jpg",1800,1504],["bruh-p-sassywall.jpg",1800,1031],["bruh-p-teaser.jpg",1800,889],["bruh-p-shelf.jpg",1568,1115],["bruh-p-booth2.jpg",1400,1019],["bruh-p-gag1.jpg",1800,799],["bruh-p-gag2.jpg",1800,750],["bruh-p-bus-bg.jpg",1800,690]],"mpower":[["mpower-guide-1.jpg",1400,3611],["mpower-guide-2.jpg",1400,4055],["mpower-guide-3.jpg",1400,3211],["mpower-guide-4.jpg",1400,6877],["mpower-guide-5.jpg",1400,5020],["mpower-pub-1.jpg",1080,1080],["mpower-pub-2.jpg",1080,1080],["mpower-smp-1.jpg",1080,1080],["mpower-smp-2.jpg",1080,1080],["mpower-smp-3.jpg",1080,1080],["mpower-smp-4.jpg",1080,1080],["mpower-smp-5.jpg",1080,1080],["mpower-smp-6.jpg",1080,1080],["mpower-smp-7.jpg",1080,1080],["mpower-smp-8.jpg",1080,1080],["mpower-smp-9.jpg",1080,1080],["mpower-hero-1.jpg",1400,1400],["mpower-hero-2.jpg",1400,1400],["mpower-card2.jpg",1600,1198]],"qarteli":[["qarteli-v2-01.jpg",2000,1125],["qarteli-v2-02.jpg",2000,1125],["qarteli-v2-03.jpg",2000,1125],["qarteli-v2-04.jpg",2000,1125],["qarteli-v2-05.jpg",2000,1125],["qarteli-v2-06.jpg",2000,1125],["qarteli-v2-07.jpg",2000,1125],["qarteli-v2-08.jpg",2000,1125],["qarteli-v2-09.jpg",2000,1125],["qarteli-v2-10.jpg",2000,1125],["qarteli-screen.jpg",2000,1250]],"mwc":[["mwc-01.jpg",2000,1157],["mwc-02c.jpg",800,1600],["mwc-03c.jpg",800,1600],["mwc-04c.jpg",800,1600],["mwc-05.jpg",1361,1600],["mwc-card3.jpg",1600,1200]],"jiibay":[["jiibay-01.jpg",2000,1500],["jiibay-02.jpg",1600,1200],["jiibay-03.jpg",1600,1200]],"taste":[["taste-c01s.jpg",1322,1800],["taste-c02.jpg",1800,1327],["taste-c03.jpg",1800,1327],["taste-c04.jpg",1800,1327],["taste-c05.jpg",1800,1327],["taste-c06.jpg",1800,1327],["taste-c07.jpg",1800,1327],["taste-card-s.jpg",1600,1200]]};
+
+// ===== EDIT YOUR PROJECTS BELOW: titles, summaries, Challenge / Approach / My Role text =====
+const PROJECTS = [
+  {id:"mpower", title:"M-POWER Global", kind:"Client project", cover:19,
+   sum:"Brand book and social media system for a youth empowerment organization in Georgia.",
+   cats:["branding","digital"], client:"M-POWER Global", deliver:"Brand book, bilingual type system, social templates",
+   challenge:"A youth empowerment organization in Georgia needed an identity that feels credible to partners and funders yet approachable to young people, and that works equally well in Georgian and English.",
+   approach:["Building on the existing logo, I created a complete brand book covering the organization's narrative and personality, logo usage rules, colour and typography. Red, near-black and off-white carry authority, while coral, golden yellow and teal keep social content friendly. Each typeface is paired with a Georgian counterpart (Montserrat with Noto Serif Georgian, Karla with Noto Sans Georgian) so both scripts read as one brand.","For social media, I designed framed post templates that let the team announce opportunities quickly without breaking the system."],
+   hero:[17,18,6],
+   role:"Working with the organization's existing logo: brand book, bilingual typography system, social media templates and posts.",
+   sections:[
+     {title:"Brand guidelines", note:"Scroll inside the frame, or tap to open it full screen.", type:"scroll", imgs:[1,2,3,4,5]},
+     {title:"Published posts", note:"Posts published on M-POWER's Instagram.", type:"grid", cols:2, imgs:[6,7]},
+     {title:"Template samples", note:"Sample posts from the brand book, showing how the system flexes across topics.", type:"grid", cols:3, imgs:[14,15,16,8,9,10,11,12,13]}
+   ]},
+  {id:"cmog", title:"Corning Museum of Glass", kind:"Campaign", cover:8,
+   sum:"A monogram and out-of-home campaign that lets a glass museum's sculptures do the talking.",
+   cats:["campaigns","branding","print"], client:"Corning Museum of Glass (concept)", deliver:"Monogram, posters, transit shelters, billboards, lightboxes, merchandise",
+   challenge:"Make a cultural institution stand out in a crowded city media landscape and give it an identity that works from a bus shelter to a building banner.",
+   approach:"I created the CMoG monogram with overlapping outlined letters to suggest transparency, the defining quality of glass. For the campaign, I let the museum's own sculptures carry the visuals and paired them with a short, repeatable line: “Explore. Learn. Create.” The system runs across billboards, transit shelters and lightbox signage.",
+   role:"Concept, logo, campaign design and all out-of-home layouts.",
+   rows:[[6],[3,7],[4,8],[1,2,9,10],[13,11]]},
+  {id:"bruh", title:"BRUH", kind:"Team project", cover:1,
+   sum:"Launch campaign, brand and packaging for a sibling prank kit.",
+   cats:["campaigns","branding","digital"], client:"BRUH, under Hasbro (concept)", deliver:"Identity, packaging, OOH, social, web, merch, in-store display, launch event, product video",
+   challenge:"Launch a sibling prank kit under Hasbro that stands out against Lego, Mattel and Jakks Pacific, and speaks to a deliberately broad audience: anyone 15 or older with a sibling and a mischievous streak.",
+   approach:["We built a loud, playful system that's hard to miss: bubbly “Don't Try Me” lettering, a winking raccoon logo in a backwards cap, and three colours (yellow, teal and red) applied everywhere. The packaging centres on a hero kit box that opens to “Caution! Fun Unpacked,” supported by a range of gag items: whoopee cushion, mints tin, gum, spray, soap and cards.","The campaign ran in three phases: teaser posters and a 10, 5 and 1-day social countdown before launch, an April Fools' Day launch event at Toronto's Harbourfront hosted with the Sassy Brothers, then billboards, transit shelters, a bus wrap, merch, a website and an in-store display to keep the momentum going."],
+   role:"Created all of the product mockups, and worked on and finalized the product reveal video. Also worked across the full project as part of a five-person team: concept development, logo and packaging design, product line ideation, campaign strategy and the final presentation.",
+   video:{src:"bruh-video.mp4", poster:"bruh-video-poster.jpg", caption:"Product reveal video, 33 seconds. Sound on."},
+   rows:[[1],[13,15,5],[19],[12],[10],[18,17],[24],[16],[3,4,11],[2,21]]},
+  {id:"financeit", title:"Financeit", kind:"Team project · Team lead", cover:10,
+   sum:"A multi-channel campaign for a consumer financing brand.",
+   cats:["campaigns","digital"], client:"Financeit (concept)", deliver:"Landing page, banner ads, magazine cover ad",
+   challenge:"Build a multi-channel campaign for a consumer financing brand that feels consistent whether someone sees it on Instagram, in a browser, in print or at a trade show.",
+   approach:"Working within Financeit's existing brand guidelines, we built one core message, “Business smart, consumer-friendly financing,” and adapted it across a landing page, banner ads in three standard sizes and a magazine cover ad. Bold type and a single hero image hold the system together.",
+   role:"Led the team's creative direction and kept every piece aligned with Financeit's brand guidelines. Designed the magazine cover ad, the online banner ad set and the landing page hero section, and art-directed the rest of the page for visual consistency. Handled all photo manipulation and retouching.",
+   hero:[1],
+   sections:[
+     {title:"Landing page", note:"Hero section designed by me; lower sections by teammates, art-directed by me.", type:"page", imgs:[9]},
+     {title:"Display ads", note:"Big box, leaderboard and skyscraper, shown in place on a web page.", type:"rows", rows:[[6],[3],[2,4]]},
+     {title:"Magazine cover ad", note:"Print placement of the same campaign.", type:"rows", rows:[[8]]}
+   ]},
+  {id:"qarteli", title:"Qarteli Bakery", kind:"Client project", cover:11,
+   sum:"Bilingual digital menu screens for a Georgian bakery in Toronto.",
+   cats:["print","digital"], client:"Qarteli Bakery, Toronto", deliver:"10 in-store menu screens, product photography",
+   challenge:"A Toronto Georgian bakery needed in-store digital menu screens that customers could read at a glance, in both English and Georgian, without losing the warmth of the food.",
+   approach:"I photographed the products myself, then designed a calm, neutral layout with a subtle pattern so the food photography leads. Bilingual labels, clear pricing, and consistent portion and calorie information make the menus fast to scan in a busy line.",
+   role:"End to end: product photography, layout, bilingual typography and production-ready files for in-store screens.",
+   rows:[[11],[1],[3],[4],[6],[9],[2],[5],[7],[8],[10]]},
+  {id:"mwc", title:"Matrix World Dance Centre", kind:"Poster series", cover:6,
+   sum:"Posters for a season of Georgian dance, one personality per dance.",
+   cats:["campaigns","print"], client:"Matrix World Dance Centre (concept)", deliver:"Poster series, roll-up banners",
+   challenge:"Promote a series of Georgian dance performances with posters that feel like one campaign but give each dance its own personality.",
+   approach:"Each banner pairs a dancer with a typeface and colour matched to that dance's character: delicate script for Daisi, energetic brush lettering for Mtiuluri, regal blue for Samaia. A shared layout and branding keep the series unified across print and roll-up banners.",
+   role:"Concept, typography, image treatment and print production.",
+   credit:"Photography: Daisi image by Anna Makharashvili. Additional photography supplied.",
+   hero:[5],
+   rows:[[5],[2,3,4],[1]]},
+  {id:"jiibay", title:"Jiibay Jewels", kind:"Team project", cover:1,
+   sum:"Packaging for a jewellery concept inspired by Woodland art.",
+   cats:["branding"], client:"Jiibay Jewels (concept)", deliver:"Boxes, bags, brochure, tags",
+   challenge:"Create packaging and brand materials for a jewellery concept inspired by Indigenous Woodland art, while researching the copyright and cultural considerations of working with a recognizable artistic style.",
+   approach:"We developed the name, logo and a packaging system of boxes, bags, brochure and tags, using bold outlined forms and saturated colour on black and white for strong shelf presence.",
+   role:"I proposed the concept and illustrated and digitized the packaging artwork.",
+   rows:[[1],[2,3]]},
+  {id:"taste", title:"Taste & Travel", kind:"Editorial", cover:8,
+   sum:"Editorial design for an issue of a food and travel magazine.",
+   cats:["print"], client:"Taste & Travel (concept)", deliver:"Cover, contents, feature spreads",
+   challenge:"Design an issue of a food and travel magazine that moves between recipes, restaurant features and destination stories while still feeling like one publication.",
+   approach:"A dark, photo-led cover and a serif-and-script type pairing set an upscale tone. Each feature opens with a full-bleed photograph and a large display title, then settles into a consistent column grid with pull quotes in an orange accent. The issue runs from the publisher's letter through Food Day Canada, LA food trucks, Tuscany and the Seychelles.",
+   role:"Editorial design: cover, contents, page layouts and typography, using stock photography.",
+   rows:[[1,2],[3,4],[5,6],[7]]}
+];
+const SELECTED = ["mpower","cmog","bruh","financeit"];
+const catName = id => (CATS.find(c=>c.id===id)||{}).name;
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const src = f => "img/" + f;
+
+function card(p, eager){
+  const im = IMG[p.id][p.cover-1];
+  return `<a class="card" href="#p-${p.id}">
+    <div class="ph"><img src="${src(im[0])}" width="${im[1]}" height="${im[2]}" alt="${esc(p.title)} project" ${eager?"":'loading="lazy"'}></div>
+    <div class="row"><h3>${esc(p.title)}</h3><span class="kind">${esc(p.kind)}</span></div>
+    <p>${esc(p.sum)}</p>
+    <div class="tags">${p.cats.map(c=>`<span>${esc(catName(c))}</span>`).join("")}</div>
+  </a>`;
+}
+
+let filter = "all";
+let expanded = false;
+function renderHome(){
+  const f = document.getElementById("filters");
+  f.innerHTML = [{id:"all",name:"All"}].concat(CATS).map(c=>{
+    const n = c.id==="all" ? PROJECTS.length : PROJECTS.filter(p=>p.cats.includes(c.id)).length;
+    return `<button class="chip" type="button" data-f="${c.id}" aria-pressed="${filter===c.id}">${esc(c.name)} <span aria-hidden="true">${n}</span></button>`;
+  }).join("");
+  const ordered = SELECTED.map(id=>PROJECTS.find(p=>p.id===id)).concat(PROJECTS.filter(p=>!SELECTED.includes(p.id)));
+  let list = ordered.filter(p=>filter==="all"||p.cats.includes(filter));
+  const collapse = filter==="all" && !expanded;
+  if(collapse) list = list.slice(0, SELECTED.length);
+  document.getElementById("workGrid").innerHTML = list.map((p,i)=>card(p, i<2)).join("") || `<p class="empty">No projects in this area yet.</p>`;
+  document.getElementById("moreRow").hidden = !collapse;
+}
+document.getElementById("moreBtn").addEventListener("click", ()=>{ expanded = true; renderHome(); });
+document.getElementById("filters").addEventListener("click", e=>{
+  const b = e.target.closest("[data-f]"); if(!b) return;
+  filter = b.dataset.f; expanded = false; renderHome();
+  try{ history.replaceState(null,"", filter==="all" ? "#work" : "#"+filter); }catch(_){}
+});
+
+function rowHTML(p,r){
+  const ims = r.map(n=>IMG[p.id][n-1]);
+  const narrow = ims.length===1 && ims[0][1]/ims[0][2] < 1.1;
+  return `<div class="grow${narrow?" narrow":""}">${ims.map(im=>`<figure style="flex:${(im[1]/im[2]).toFixed(4)} 1 0"><img src="${src(im[0])}" width="${im[1]}" height="${im[2]}" alt="${esc(p.title)}" loading="lazy"></figure>`).join("")}</div>`;
+}
+function renderProject(p){
+  const i = PROJECTS.indexOf(p), nx = PROJECTS[(i+1)%PROJECTS.length];
+  const rows = p.sections ? p.sections.map(s=>{
+    const ims = (s.imgs||[]).map(n=>IMG[p.id][n-1]);
+    const head = `<div class="subhead"><h2>${esc(s.title)}</h2><span class="label">${esc(s.note)}</span></div>`;
+    if(s.type==="scroll") return `<section class="subsec">${head}<div class="bbwrap"><div class="bbframe" tabindex="0" aria-label="${esc(p.title)} brand book, scrollable">${ims.map((im,k)=>`<img src="${src(im[0])}" width="${im[1]}" height="${im[2]}" alt="" ${k?'loading="lazy"':''}>`).join("")}</div><span class="bbhint" aria-hidden="true">Scroll to read ↓</span></div><div class="bbopenrow"><button class="btn ghost bbopen" type="button">Open full screen ↗</button></div></section>`;
+    if(s.type==="page") return `<section class="subsec">${head}<figure class="pageshot"><div class="chrome" aria-hidden="true"><i></i><i></i><i></i></div><img src="${src(ims[0][0])}" width="${ims[0][1]}" height="${ims[0][2]}" alt="${esc(p.title)} full page" loading="lazy"></figure></section>`;
+    if(s.type==="rows") return `<section class="subsec">${head}<div class="gallery">${s.rows.map(r=>rowHTML(p,r)).join("")}</div></section>`;
+    return `<section class="subsec">${head}<div class="postgrid" style="--cols:${s.cols||3}">${ims.map((im,k)=>`<figure><img src="${src(im[0])}" width="${im[1]}" height="${im[2]}" alt="${esc(p.title)} social post ${k+1}" loading="lazy"></figure>`).join("")}</div></section>`;
+  }).join("") : p.rows.slice(1).map(r=>{
+    const ims = r.map(n=>IMG[p.id][n-1]);
+    const narrow = ims.length===1 && ims[0][1]/ims[0][2] < 1.1;
+    return `<div class="grow${narrow?" narrow":""}">${ims.map((im,k)=>`<figure style="flex:${(im[1]/im[2]).toFixed(4)} 1 0"><img src="${src(im[0])}" width="${im[1]}" height="${im[2]}" alt="${esc(p.title)}, image ${p.rows.flat().indexOf(r[k])+1}" ${k||r!==p.rows[0]?'loading="lazy"':''}></figure>`).join("")}</div>`;
+  }).join("");
+  const heroIdx = p.hero || p.rows[0];
+  const heroIms = heroIdx.map(n=>IMG[p.id][n-1]);
+  const heroNarrow = heroIms.length===1 && heroIms[0][1]/heroIms[0][2] < 1.1;
+  const hero = `<div class="grow lead${heroNarrow?" narrow":""}">${heroIms.map(im=>`<figure style="flex:${(im[1]/im[2]).toFixed(4)} 1 0"><img src="${src(im[0])}" width="${im[1]}" height="${im[2]}" alt="${esc(p.title)}"></figure>`).join("")}</div>`;
+  const appr = [].concat(p.approach).map(t=>`<p>${esc(t)}</p>`).join("");
+  const el = document.getElementById("project");
+  el.innerHTML = `<div class="wrap">
+    <div class="proj-head">
+      <a class="back" href="#work">← All work</a>
+      <h1>${esc(p.title)}</h1>
+      <p class="sum">${esc(p.sum)}</p>
+    </div>
+    ${hero}
+    <div class="proj-meta">
+      <div class="docket">
+        <div><b>Client</b><span>${esc(p.client)}</span></div>
+        <div><b>Type</b><span>${esc(p.kind)}</span></div>
+        <div><b>Deliverables</b><span>${esc(p.deliver)}</span></div>
+      </div>
+    </div>
+    <div class="story">
+      <div><h2>Challenge</h2><p>${esc(p.challenge)}</p></div>
+      <div><h2>Approach</h2>${appr}</div>
+      <div><h2>My role</h2><p>${esc(p.role)}</p></div>
+    </div>
+    <div class="gallery">${p.video?`<figure class="vid"><video controls playsinline preload="metadata" poster="${src(p.video.poster)}" width="1600" height="900"><source src="${src(p.video.src)}" type="video/mp4"></video>${p.video.caption?`<figcaption class="label">${esc(p.video.caption)}</figcaption>`:""}</figure>`:""}${rows}</div>
+    ${p.credit?`<p class="credit">${esc(p.credit)}</p>`:""}
+    <div class="next">
+      <span class="label">${p.cats.map(catName).join(" · ")}</span>
+      <a href="#p-${nx.id}"><span>Next project</span>${esc(nx.title)} →</a>
+    </div>
+  </div>`;
+  const f = el.querySelector(".bbframe");
+  if(f){
+    const open = ()=>openViewer([...f.querySelectorAll("img")].map(i=>i.getAttribute("src")));
+    f.addEventListener("click", open);
+    f.style.cursor = "zoom-in";
+    el.querySelector(".bbopen").addEventListener("click", open);
+    f.addEventListener("keydown", e=>{ if(e.key==="Enter") open(); });
+  }
+  if(f) f.addEventListener("scroll", ()=>f.parentNode.classList.toggle("end", f.scrollTop + f.clientHeight >= f.scrollHeight - 24), {passive:true});
+}
+
+function openViewer(srcs){
+  const v = document.getElementById("viewer"), body = v.querySelector(".vbody");
+  body.innerHTML = srcs.map(x=>`<img src="${x}" alt="">`).join("");
+  v.classList.remove("zoom"); v.querySelector(".vzoom").textContent = "Zoom in";
+  v.hidden = false; document.documentElement.style.overflow = "hidden"; body.scrollTop = 0;
+  v.querySelector(".vclose").focus();
+}
+function closeViewer(){ const v=document.getElementById("viewer"); v.hidden = true; document.documentElement.style.overflow = ""; }
+document.addEventListener("keydown", e=>{ if(e.key==="Escape" && !document.getElementById("viewer").hidden) closeViewer(); });
+function route(){
+  const h = location.hash.slice(1);
+  const home = document.getElementById("home"), proj = document.getElementById("project"), cv = document.getElementById("resume");
+  const p = h.startsWith("p-") && PROJECTS.find(x=>"p-"+x.id===h);
+  if(h==="resume"){
+    home.hidden = true; proj.hidden = true; cv.hidden = false;
+    document.title = "Resume · Anna Makharashvili"; window.scrollTo(0,0); return;
+  }
+  cv.hidden = true;
+  if(p){
+    renderProject(p); home.hidden = true; proj.hidden = false;
+    document.title = p.title + " · Anna Makharashvili";
+    window.scrollTo(0,0);
+  } else {
+    const wasProj = !proj.hidden;
+    proj.hidden = true; home.hidden = false;
+    document.title = "Anna Makharashvili";
+    if(CATS.some(c=>c.id===h)){ filter = h; }
+    renderHome();
+    const target = CATS.some(c=>c.id===h) ? document.getElementById("work") : (h ? document.getElementById(h) : null);
+    if(target){ target.scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"});
+      if(h==="contact"){ target.classList.remove("arrived"); void target.offsetWidth; target.classList.add("arrived"); } }
+    else if(wasProj) window.scrollTo(0,0);
+  }
+}
+window.addEventListener("hashchange", route);
+document.querySelector(".nav").addEventListener("click", e=>{ const l=e.target.closest('a[href^="#"]'); if(l && l.getAttribute("href")===location.hash){ e.preventDefault(); route(); } });
+route();
+
+document.querySelector("#viewer .vclose").addEventListener("click", closeViewer);
+document.querySelector("#viewer .vzoom").addEventListener("click", e=>{ const v=document.getElementById("viewer"); v.classList.toggle("zoom"); e.currentTarget.textContent = v.classList.contains("zoom") ? "Fit width" : "Zoom in"; });
+document.getElementById("copyBtn").addEventListener("click", async e=>{
+  const t = document.getElementById("addr").textContent.trim(), b = e.currentTarget;
+  try{ await navigator.clipboard.writeText(t); b.textContent = "Copied"; }
+  catch(_){ const r = document.createRange(); r.selectNodeContents(document.getElementById("addr")); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = "Selected, press Ctrl+C"; }
+  setTimeout(()=>b.textContent="Copy email", 2000);
+});
+</script>
+
+</body></html>
